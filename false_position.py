@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 
-Es = 0.0001   # 발표 원본은 0.5. 가위치법이 참 근(15.923)에 도달하도록 더 엄격하게 설정.
-x_r0=0 #임의로 설정
+Es = 0.0001   # 기존 0.5. 가위치법이 참 근(15.923)에 도달하도록 더 narrow하게 설정.
+x_r0=0 # 임의로 설정
 x_l=0
 x_l1=x_l
 x_u=20

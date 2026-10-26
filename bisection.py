@@ -17,10 +17,10 @@ while abs(Ea) >= Es :
     #print("f(x_r) =",fx_r)
     if fx_r < 0: # fx_r < 0 일 때
         x_l = x_r
-        #print ("x_r이 x_l이 되었습니다.",x_l)
+        #print ("x_r equals x_l.",x_l)
     else:
         x_u = x_r
-        #print ("x_r이 x_u가 되었습니다.",x_u)
+        #print ("x_r equals x_u.",x_u)
     i=i+1
     Ea = (x_r-x_r0)/x_r * 100
     x_r0=x_r
